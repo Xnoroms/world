@@ -12,8 +12,9 @@ class mammals extends animals implements activities{
     }
 
     @Override
-    public void sound(String soundExample) {
-
+    public String sound(String soundExample) {
+       System.out.println(soundExample);
+    return soundExample;
     }
 
     @Override

@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Objects;
 
 class animals implements activities {
 
@@ -31,8 +32,9 @@ class animals implements activities {
 
 
     @Override
-    public void sound(String soundExample){
-
+    public String sound(String soundExample){
+        System.out.println(soundExample);
+        return soundExample;
     }
 
     @Override

@@ -1,4 +1,4 @@
 public interface activities {
-    void sound(String soundExample);
+    String sound(String soundExample);
     void breath();
 }
