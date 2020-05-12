@@ -20,8 +20,7 @@ class animals implements activities {
         return name;
     }
 
-    public animals(){
-
+    public animals() {
     }
 
     public animals(String n, String o, int m){

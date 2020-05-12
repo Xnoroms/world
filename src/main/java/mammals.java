@@ -2,6 +2,10 @@
 class mammals extends animals implements activities{
     private int numberOfLimbs;
 
+    public mammals() {
+
+    }
+
     public int getNumberOfLimbs() {
         return numberOfLimbs;
     }

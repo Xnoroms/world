@@ -22,6 +22,15 @@ public class world {
         duck.sound("kwa!");
         duck.breath();
 
+        // abstract class
+
+        human Grzegorz = new human() {
+            @Override
+            public void thinkAbstractly() {
+                System.out.println("I'm Genius!");
+            }
+        };
+
         // Exceptions
 
         System.out.printf("\narithmetic average- number of limbs\n");
@@ -43,6 +52,7 @@ public class world {
       catch (InputMismatchException a) {
           System.out.println("I need a number!");
       }
+
 
       }
 
