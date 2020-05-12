@@ -44,9 +44,7 @@ public class world {
             System.out.println("how many mammals?");
             n = scanner.nextInt();
 
-            for (int a=0; a<n; a++ )
-
-            System.out.println("gve me the sum of limbs");
+            System.out.println("give me the sum of limbs");
             s = scanner.nextInt();
 
 
